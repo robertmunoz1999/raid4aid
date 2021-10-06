@@ -5,9 +5,9 @@
         <div>
           <div>
             <div>
-              <h2 class="text-h4 font-weight-bold">ANIMAL</h2>
+              <h2 class="text-h4 font-weight-bold">Diario</h2>
 
-              <h4 class="text-h6">Some category description goes here</h4>
+              <h4 class="text-h6">El dia a dia del proyecto</h4>
             </div>
 
             <v-divider class="my-4"></v-divider>
