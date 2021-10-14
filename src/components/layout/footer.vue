@@ -14,7 +14,7 @@
 
           <v-col cols="12" md="3">
             <v-list flat color="transparent">
-              <v-subheader class="text-h6">HeroUI</v-subheader>
+              <v-subheader class="text-h6">Otros</v-subheader>
               <v-list-item-group color="primary">
                 <v-list-item
                   v-for="(item, i) in heroui"

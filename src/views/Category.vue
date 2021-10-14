@@ -36,7 +36,7 @@
                         style="border-radius: 16px"
                       >
                         <v-card-text>
-                          <v-btn color="accent">ANIMAL</v-btn>
+                          <v-btn color="#d2aa6d">ANIMAL</v-btn>
                         </v-card-text>
                       </v-img>
 
@@ -51,7 +51,7 @@
                         </div>
 
                         <div class="d-flex align-center">
-                          <v-avatar color="accent" size="36">
+                          <v-avatar color="#d2aa6d" size="36">
                             <v-icon dark>mdi-feather</v-icon>
                           </v-avatar>
 

@@ -6,7 +6,7 @@
       <v-divider></v-divider>
 
       <div>
-        <v-row v-for="i in 5" :key="i" class="py-2">
+        <v-row v-for="i in 3" :key="i" class="py-2">
           <v-col cols="12" md="6" lg="5">
             <v-card height="100%" flat>
               <v-img
@@ -19,14 +19,14 @@
 
           <v-col>
             <div>
-              <v-btn depressed color="accent" small>TRAVEL</v-btn>
+              <v-btn depressed color="#d2aa6d" small>TRAVEL</v-btn>
 
               <h3 class="text-h6 font-weight-bold primary--text py-3">
                 What do | need to know to start learning JavaScript?
               </h3>
 
               <div class="d-flex align-center">
-                <v-avatar color="accent" size="24">
+                <v-avatar color="#d2aa6d" size="24">
                   <v-icon dark small>mdi-feather</v-icon>
                 </v-avatar>
 
@@ -39,29 +39,13 @@
     </div>
 
     <div class="pt-4">
-      <h3 class="text-h5 font-weight-medium pb-4">Category</h3>
-
-      <v-divider></v-divider>
-
-      <v-card color="accent" dark flat v-for="i in 5" :key="i" class="my-4">
-        <v-card-text
-          class="d-flex justify-space-between align-center white--text"
-        >
-          <h6 class="text-h6">Travel</h6>
-
-          <div class="text-h6">47</div>
-        </v-card-text>
-      </v-card>
-    </div>
-
-    <div class="pt-4">
       <h3 class="text-h5 font-weight-medium pb-4">Top Authors</h3>
 
       <v-divider></v-divider>
 
       <div class="pt-4">
-        <div class="d-flex align-center mb-6" v-for="i in 5" :key="i">
-          <v-avatar color="accent" size="64">
+        <div class="d-flex align-center mb-6" v-for="i in 3" :key="i">
+          <v-avatar color="#d2aa6d" size="64">
             <v-icon dark x-large>mdi-feather</v-icon>
           </v-avatar>
 
@@ -80,7 +64,7 @@
 
       <v-row class="pt-4">
         <v-col v-for="i in 7" :key="i" class="flex-shrink-0" cols="auto">
-          <v-chip color="accent">#Images</v-chip>
+          <v-chip color="#d2aa6d">#Images</v-chip>
         </v-col>
       </v-row>
     </div>
@@ -98,7 +82,7 @@
         flat
         class="pt-4"
       ></v-text-field>
-      <v-btn color="accent" block large>Subscrbe</v-btn>
+      <v-btn color="#d2aa6d" block large>Subscrbe</v-btn>
     </div>
   </div>
 </template>

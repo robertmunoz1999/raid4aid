@@ -3,7 +3,7 @@
     <div>
       <v-card to="detail">
         <v-img
-          src="../../images/frontpage.jpeg"
+          src="https://live.staticflickr.com/65535/49723888066_54785097cf_k.jpg"
           gradient="to top, rgba(25,32,72,.7), rgba(25,32,72,.0)"
           :aspect-ratio="16 / 9"
           height="500px"
@@ -12,7 +12,7 @@
           <v-card-text class="fill-height d-flex align-end">
             <v-row class="flex-column">
               <v-col>
-                <v-btn color="accent" to="category">Travel</v-btn>
+                <v-btn color="#d2aa6d" to="category">Travel</v-btn>
               </v-col>
               <v-col cols="12" md="10" lg="8" xl="7">
                 <h2 class="text-h3 py-3" style="line-height: 1.2">
@@ -20,7 +20,7 @@
                 </h2>
               </v-col>
               <v-col class="d-flex align-center">
-                <v-avatar class="elevation-4" color="accent">
+                <v-avatar class="elevation-4" color="#d2aa6d">
                   <v-icon large>mdi-feather</v-icon>
                 </v-avatar>
 
@@ -62,7 +62,7 @@
                         style="border-radius: 16px"
                       >
                         <v-card-text>
-                          <v-btn color="accent" to="category">TIPS</v-btn>
+                          <v-btn color="#d2aa6d" to="category">TIPS</v-btn>
                         </v-card-text>
                       </v-img>
 
@@ -77,7 +77,7 @@
                         </div>
 
                         <div class="d-flex align-center">
-                          <v-avatar color="accent" size="36">
+                          <v-avatar color="#d2aa6d" size="36">
                             <v-icon dark>mdi-feather</v-icon>
                           </v-avatar>
 
@@ -108,7 +108,7 @@
                       class="d-flex flex-column justify-space-between fill-height"
                     >
                       <v-card-text>
-                        <v-btn color="accent">ANIMALS</v-btn>
+                        <v-btn color="#d2aa6d">ANIMALS</v-btn>
                       </v-card-text>
 
                       <v-card-text>
@@ -120,7 +120,7 @@
                         </div>
 
                         <div class="d-flex align-center">
-                          <v-avatar color="accent" size="36">
+                          <v-avatar color="#d2aa6d" size="36">
                             <v-icon dark>mdi-feather</v-icon>
                           </v-avatar>
 
@@ -134,48 +134,6 @@
             </v-row>
           </div>
 
-          <div class="pt-16">
-            <h2 class="text-h4 font-weight-bold">Latest Posts</h2>
-
-            <div>
-              <v-row v-for="i in 6" :key="i" class="py-4">
-                <v-col cols="12" md="4">
-                  <v-card flat height="100%">
-                    <v-img
-                      src="https://cdn.pixabay.com/photo/2021/01/27/06/54/nova-scotia-duck-tolling-retriever-5953883_1280.jpg"
-                      :aspect-ratio="16 / 9"
-                      height="100%"
-                    ></v-img>
-                  </v-card>
-                </v-col>
-
-                <v-col>
-                  <div>
-                    <v-btn depressed color="accent">TRAVEL</v-btn>
-
-                    <h3 class="text-h4 font-weight-bold pt-3">
-                      Ut enim blandit volutpat maecenas volutpat blandit
-                    </h3>
-
-                    <p class="text-h6 font-weight-regular pt-3 text--secondary">
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
-
-                    <div class="d-flex align-center">
-                      <v-avatar color="accent" size="36">
-                        <v-icon dark>mdi-feather</v-icon>
-                      </v-avatar>
-
-                      <div class="pl-2">Yan Lee · 03 Jan 2019</div>
-                    </div>
-                  </div>
-                </v-col>
-              </v-row>
-            </div>
-          </div>
         </div>
       </v-col>
 

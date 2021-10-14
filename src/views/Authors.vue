@@ -32,7 +32,7 @@
                       ></v-img>
 
                       <v-card-text class="text-center">
-                        <v-avatar color="accent" size="86" class="authors">
+                        <v-avatar color="#d2aa6d" size="86" class="authors">
                           <v-icon dark size="64">mdi-feather</v-icon>
                         </v-avatar>
 
@@ -93,7 +93,7 @@
                       ></v-img>
 
                       <v-card-text class="text-center">
-                        <v-avatar color="accent" size="86" class="authors">
+                        <v-avatar color="#d2aa6d" size="86" class="authors">
                           <v-icon dark size="64">mdi-feather</v-icon>
                         </v-avatar>
 
@@ -157,7 +157,7 @@
                       ></v-img>
 
                       <v-card-text class="text-center">
-                        <v-avatar color="accent" size="86" class="authors">
+                        <v-avatar color="#d2aa6d" size="86" class="authors">
                           <v-icon dark size="64">mdi-feather</v-icon>
                         </v-avatar>
 
@@ -199,12 +199,6 @@
           </div>
         </div>
       </v-col>
-
-      <v-col>
-        <div>
-          <siderbar />
-        </div>
-      </v-col>
     </v-row>
   </div>
 </template>
@@ -213,7 +207,6 @@
 export default {
   name: "Category",
   components: {
-    siderbar: () => import("@/components/details/sidebar"),
   },
 };
 </script>
