@@ -36,10 +36,10 @@
       <v-col cols="12" lg="12" xl="8">
         <div>
           <div class="pt-16">
-            <h2 class="text-h4 font-weight-bold pb-4">Recommended For You</h2>
+            <h2 class="text-h4 font-weight-bold pb-4">Sigue el proyecto:</h2>
 
             <v-row>
-              <v-col cols="12" md="6" lg="4" v-for="i in 6" :key="i">
+              <v-col cols="12" md="6" lg="4">
                 <v-hover
                   v-slot:default="{ hover }"
                   open-delay="50"
@@ -51,10 +51,10 @@
                       :color="hover ? 'white' : 'transparent'"
                       :elevation="hover ? 12 : 0"
                       hover
-                      to="/detail"
+                      to="/entrada1"
                     >
                       <v-img
-                        src="https://cdn.pixabay.com/photo/2020/12/23/14/41/forest-5855196_1280.jpg"
+                        src="../../images/sponsors.png"
                         :aspect-ratio="16 / 9"
                         gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
                         height="200px"
@@ -62,18 +62,114 @@
                         style="border-radius: 16px"
                       >
                         <v-card-text>
-                          <v-btn color="#d2aa6d" to="category">TIPS</v-btn>
+                          <v-btn color="#d2aa6d" to="category">DIARIO</v-btn>
                         </v-card-text>
                       </v-img>
 
                       <v-card-text>
                         <div class="text-h5 font-weight-bold primary--text">
-                          How to write an awesome blog post in 5 steps
+                          Necesitamos ayuda
                         </div>
 
                         <div class="text-body-1 py-4">
-                          Ultrices sagittis orci a scelerisque. Massa placerat
-                          duis ultricies lacus sed turpis
+                          Primera entrada del diario de abordo.
+                          Una de las claves de UNIRAID (y de la mayoría de raids) es que son financiados por empresas ...
+                        </div>
+
+                        <div class="d-flex align-center">
+                          <v-avatar color="#d2aa6d" size="36">
+                            <v-icon dark>mdi-feather</v-icon>
+                          </v-avatar>
+
+                          <div class="pl-2">Roberto Muñoz · 9 Jan 2022</div>
+                        </div>
+                      </v-card-text>
+                    </v-card>
+                  </div>
+                </v-hover>
+              </v-col>
+              <v-col cols="12" md="6" lg="4">
+                <v-hover
+                  v-slot:default="{ hover }"
+                  open-delay="50"
+                  close-delay="50"
+                >
+                  <div>
+                    <v-card
+                      flat
+                      :color="hover ? 'white' : 'transparent'"
+                      :elevation="hover ? 12 : 0"
+                      hover
+                      to="/entrada2"
+                    >
+                      <v-img
+                        src="../../images/cohete.png"
+                        :aspect-ratio="16 / 9"
+                        gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
+                        height="200px"
+                        class="elevation-2"
+                        style="border-radius: 16px"
+                      >
+                        <v-card-text>
+                          <v-btn color="#d2aa6d" to="category">DIARIO</v-btn>
+                        </v-card-text>
+                      </v-img>
+
+                      <v-card-text>
+                        <div class="text-h5 font-weight-bold primary--text">
+                          Tenemos "El Cohete"
+                        </div>
+
+                        <div class="text-body-1 py-4">
+                          Segunda entrada del diario. Una vez asegurados dos patrocinadores, nos hemos puesto en marcha para encontrar un coche apropiado para el proyecto...
+                        </div>
+
+                        <div class="d-flex align-center">
+                          <v-avatar color="#d2aa6d" size="36">
+                            <v-icon dark>mdi-feather</v-icon>
+                          </v-avatar>
+
+                          <div class="pl-2">Yan Lee · 22 July 2019</div>
+                        </div>
+                      </v-card-text>
+                    </v-card>
+                  </div>
+                </v-hover>
+              </v-col>
+              <v-col cols="12" md="6" lg="4">
+                <v-hover
+                  v-slot:default="{ hover }"
+                  open-delay="50"
+                  close-delay="50"
+                >
+                  <div>
+                    <v-card
+                      flat
+                      :color="hover ? 'white' : 'transparent'"
+                      :elevation="hover ? 12 : 0"
+                      hover
+                      to="/entrada3"
+                    >
+                      <v-img
+                        src="../../images/limpieza.png"
+                        :aspect-ratio="16 / 9"
+                        gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
+                        height="200px"
+                        class="elevation-2"
+                        style="border-radius: 16px"
+                      >
+                        <v-card-text>
+                          <v-btn color="#d2aa6d" to="category">DIARIO</v-btn>
+                        </v-card-text>
+                      </v-img>
+
+                      <v-card-text>
+                        <div class="text-h5 font-weight-bold primary--text">
+                          Limpieza del cohete
+                        </div>
+
+                        <div class="text-body-1 py-4">
+                          Tercera entrada del diario. Una de las primeras cosas que teníamos que hacer es limpiar el cohete, ya que estaba bastante sucio y solo ir montado ya te dejaba mancha...
                         </div>
 
                         <div class="d-flex align-center">
@@ -89,10 +185,11 @@
                 </v-hover>
               </v-col>
             </v-row>
+            
           </div>
 
           <div class="pt-16">
-            <h2 class="text-h4 font-weight-bold pb-4">Featured</h2>
+            <h2 class="text-h4 font-weight-bold pb-4">Videos y fotos: </h2>
 
             <v-row>
               <v-col cols="6" lg="4" v-for="i in 3" :key="i">
@@ -108,7 +205,7 @@
                       class="d-flex flex-column justify-space-between fill-height"
                     >
                       <v-card-text>
-                        <v-btn color="#d2aa6d">ANIMALS</v-btn>
+                        <v-btn color="#d2aa6d">Travel</v-btn>
                       </v-card-text>
 
                       <v-card-text>
@@ -124,7 +221,7 @@
                             <v-icon dark>mdi-feather</v-icon>
                           </v-avatar>
 
-                          <div class="pl-2">Yan Lee · 03 Jan 2019</div>
+                          <div class="pl-2">Roberto Muñoz · 9 Jan 2022</div>
                         </div>
                       </v-card-text>
                     </div>
