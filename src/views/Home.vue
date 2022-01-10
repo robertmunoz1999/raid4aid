@@ -229,7 +229,7 @@
                 </v-card>
               </v-col>
               <v-col cols="6" lg="4">
-                <v-card flat dark to="/fotos">
+                <v-card flat dark to="/fotosraid">
                   <v-img
                     src="../../images/fiesta.jpg"
                     :aspect-ratio="16 / 9"
@@ -265,7 +265,7 @@
                 </v-card>
               </v-col>
               <v-col cols="6" lg="4">
-                <v-card flat dark to="/fotos">
+                <v-card flat dark to="/videos">
                   <v-img
                     src="../../images/videos.jpeg"
                     :aspect-ratio="16 / 9"

@@ -1,8 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import VueYoutube from 'vue-youtube'
 
 Vue.use(VueRouter)
+Vue.use(VueYoutube)
+
+Vue.config.productionTip = false
+
 
 const routes = [
   {
@@ -59,6 +64,12 @@ const routes = [
     path: '/Entrada6',
     name: 'Entrada6',
     component: () => import("@/views/Entrada6.vue"),
+  }
+  ,
+  {
+    path: '/Videos',
+    name: 'Videos',
+    component: () => import("@/views/Videos.vue"),
   }
 ]
 
