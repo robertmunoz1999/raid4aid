@@ -47,19 +47,13 @@
                         </div>
 
                         <div>
-                          <v-btn icon>
-                            <v-icon>mdi-facebook</v-icon>
-                          </v-btn>
+                          
 
-                          <v-btn icon>
+                          <v-btn icon href="https://twitter.com/roba19991">
                             <v-icon>mdi-twitter</v-icon>
                           </v-btn>
 
-                          <v-btn icon>
-                            <v-icon>mdi-youtube</v-icon>
-                          </v-btn>
-
-                          <v-btn icon>
+                          <v-btn icon href="https://www.instagram.com/r0ba99/">
                             <v-icon>mdi-instagram</v-icon>
                           </v-btn>
                         </div>
@@ -108,19 +102,13 @@
                         </div>
 
                         <div>
-                          <v-btn icon>
-                            <v-icon>mdi-facebook</v-icon>
-                          </v-btn>
-
-                          <v-btn icon>
+                          
+                          <v-btn icon href="http://twitter.com/samu_aos">
                             <v-icon>mdi-twitter</v-icon>
                           </v-btn>
 
-                          <v-btn icon>
-                            <v-icon>mdi-youtube</v-icon>
-                          </v-btn>
-
-                          <v-btn icon>
+                          
+                          <v-btn icon href="https://www.instagram.com/samuuap/">
                             <v-icon>mdi-instagram</v-icon>
                           </v-btn>
                         </div>
@@ -172,16 +160,10 @@
                         </div>
 
                         <div>
-                          <v-btn icon>
-                            <v-icon>mdi-facebook</v-icon>
-                          </v-btn>
+                          
 
                           <v-btn icon>
                             <v-icon>mdi-twitter</v-icon>
-                          </v-btn>
-
-                          <v-btn icon>
-                            <v-icon>mdi-youtube</v-icon>
                           </v-btn>
 
                           <v-btn icon>
