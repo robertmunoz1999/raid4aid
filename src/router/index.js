@@ -42,6 +42,24 @@ const routes = [
     name: 'Entrada3',
     component: () => import("@/views/Entrada3.vue"),
   }
+  ,
+  {
+    path: '/Entrada4',
+    name: 'Entrada4',
+    component: () => import("@/views/Entrada4.vue"),
+  }
+  ,
+  {
+    path: '/Entrada5',
+    name: 'Entrada5',
+    component: () => import("@/views/Entrada5.vue"),
+  }
+  ,
+  {
+    path: '/Entrada6',
+    name: 'Entrada6',
+    component: () => import("@/views/Entrada6.vue"),
+  }
 ]
 
 const router = new VueRouter({

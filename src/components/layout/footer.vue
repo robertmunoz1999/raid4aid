@@ -5,6 +5,7 @@
         <v-row align="start">
           <v-col cols="12" md="3">
             <h4 class="text-h5 font-weight-bold">
+              
               Raid4Aid
             </h4>
             <p class="text-body-1">
@@ -34,56 +35,12 @@
             </v-list>
           </v-col>
 
-          <v-col cols="12" md="3">
-            <v-list flat color="transparent">
-              <v-subheader class="text-h6">Giraffe</v-subheader>
-              <v-list-item-group color="primary">
-                <v-list-item
-                  v-for="(item, i) in shock"
-                  :key="i"
-                  :href="item.href"
-                  dense
-                  target="_black"
-                >
-                  <v-list-item-content>
-                    <v-list-item-title
-                      class="text-body-1"
-                      v-text="item.text"
-                    ></v-list-item-title>
-                  </v-list-item-content>
-                </v-list-item>
-              </v-list-item-group>
-            </v-list>
-          </v-col>
-
-          <v-col cols="12" md="3">
-            <div>
-              <h5 class="text-h6 font-weight-bold">
-                Subscribe
-              </h5>
-              <p class="text-body-1">
-                The latest Rocket news, articles, and resources, sent straight
-                to your inbox every month.
-              </p>
-            </div>
-
-            <v-row>
-              <v-col cols="8">
-                <v-text-field
-                  label="Filled"
-                  solo
-                  light
-                  hide-details
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="4">
-                <v-btn large block color="secondary">
-                  Subscribe
-                </v-btn>
-              </v-col>
-            </v-row>
-          </v-col>
+          <v-img
+                src="../../../images/Patrocinadores.png"
+                :aspect-ratio="16 / 9"
+                gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
+                style="border-radius: 16px"
+              ></v-img>
         </v-row>
 
         <div class="text-center mt-6">
@@ -108,11 +65,7 @@ export default {
     heroui: [
       {
         text: "Github",
-        href: "https://github.com/AGDholo",
-      },
-      {
-        text: "Themes",
-        href: "https://heroui.net/",
+        href: "https://github.com/robertmunoz1999/raid4aid",
       },
     ],
     shock: [

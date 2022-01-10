@@ -54,7 +54,7 @@
                       to="Entrada1"
                     >
                       <v-img
-                        src="../../images/sponsors.png"
+                        src="../../images/Patrocinadores.png"
                         :aspect-ratio="16 / 9"
                         gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
                         height="200px"
@@ -72,7 +72,7 @@
                         </div>
 
                         <div class="text-body-1 py-4">
-                          Primera entrada del diario de abordo.
+                          Primera entrada  de abordo.
                           Una de las claves de UNIRAID (y de la mayoría de raids) es que son financiados por empresas ...
                         </div>
 
@@ -121,7 +121,7 @@
                         </div>
 
                         <div class="text-body-1 py-4">
-                          Segunda entrada del diario. Una vez asegurados dos patrocinadores, nos hemos puesto en marcha para encontrar un coche apropiado para el proyecto...
+                          Segunda entrada . Una vez asegurados dos patrocinadores, nos hemos puesto en marcha para encontrar un coche apropiado para el proyecto...
                         </div>
 
                         <div class="d-flex align-center">
@@ -129,7 +129,7 @@
                             <v-icon dark>mdi-feather</v-icon>
                           </v-avatar>
 
-                          <div class="pl-2">Yan Lee · 22 July 2019</div>
+                          <div class="pl-2">Roberto Muñoz </div>
                         </div>
                       </v-card-text>
                     </v-card>
@@ -169,7 +169,7 @@
                         </div>
 
                         <div class="text-body-1 py-4">
-                          Tercera entrada del diario. Una de las primeras cosas que teníamos que hacer es limpiar el cohete, ya que estaba bastante sucio y solo ir montado ya te dejaba mancha...
+                          Tercera entrada . Una de las primeras cosas que teníamos que hacer es limpiar el cohete, ya que estaba bastante sucio y solo ir montado ya te dejaba mancha...
                         </div>
 
                         <div class="d-flex align-center">
@@ -177,7 +177,7 @@
                             <v-icon dark>mdi-feather</v-icon>
                           </v-avatar>
 
-                          <div class="pl-2">Yan Lee · 22 July 2019</div>
+                          <div class="pl-2">Roberto Muñoz </div>
                         </div>
                       </v-card-text>
                     </v-card>
@@ -192,10 +192,10 @@
             <h2 class="text-h4 font-weight-bold pb-4">Videos y fotos: </h2>
 
             <v-row>
-              <v-col cols="6" lg="4" v-for="i in 3" :key="i">
+              <v-col cols="6" lg="4">
                 <v-card flat dark>
                   <v-img
-                    src="https://cdn.pixabay.com/photo/2019/10/29/14/46/landscape-4587079_1280.jpg"
+                    src="../../images/banner1.jpeg"
                     :aspect-ratio="16 / 9"
                     gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
                     height="600px"
@@ -213,7 +213,7 @@
                           class="text-h5 py-3 font-weight-bold"
                           style="line-height: 1.2"
                         >
-                          15 things I have always wondered about birds
+                          Mira todas las fotos en flickr
                         </div>
 
                         <div class="d-flex align-center">

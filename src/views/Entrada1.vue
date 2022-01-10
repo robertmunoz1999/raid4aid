@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="text-h5 font-weight-bold primary--text pt-4">
-                  <h4>Primera entrada del diario de abordo</h4>
+                  <h4>Primera entrada  de abordo</h4>
                 </div>
                 <div class="text-body-1 py-4">
                   Una de las claves de <b>UNIRAID</b> (y de la mayoría de raids) es que son financiados por <b>empresas patrocinadoras</b>. Al ser UNIRAID un proyecto ideado para universitarios, toma más peso esta forma de financiación. Es por ello que nos pusimos a buscar, a llamar, a enviar correos... La verdad que era la primera vez que hacíamos algo similar (y muy probablemente no lo hicimos de la manera más eficiente) porque al final nuestros patrocinadores han sido los más cercanos y evidentes (y los que teníamos delante de la cara pero no veíamos). 
