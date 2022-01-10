@@ -27,7 +27,7 @@
                         :aspect-ratio="16 / 9"
                         gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
                         height="300px"
-                        class="elevation-2"
+                        class="mx-auto"
                         style="border-radius: 16px"
                       ></v-img>
 
@@ -84,11 +84,11 @@
                       hover
                     >
                       <v-img
-                        src="https://cdn.pixabay.com/photo/2021/01/30/20/04/sheltie-5965187_1280.jpg"
-                        :aspect-ratio="16 / 9"
+                        src="../../images/samuel.jpeg"
+                        aspect-ratio="3/4"
                         gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
                         height="300px"
-                        class="elevation-2"
+                        class="mx-auto"
                         style="border-radius: 16px"
                       ></v-img>
 
