@@ -14,15 +14,15 @@
 
               <v-card-text>
                 <div>
-                  <v-btn color="#d2aa6d">Sexta entrada del diario</v-btn>
+                  <v-btn color="#d2aa6d">Sexta entrada</v-btn>
                 </div>
 
                 <div class="text-h4 font-weight-bold primary--text pt-4">
-                  <h4>Sexta entrada del diario</h4>
+                  <h4>Catalí</h4>
                 </div>
 
                 <div class="text-h5 font-weight-bold primary--text pt-4">
-                  <h4>¿Quienes somos?</h4>
+                  <h4>Sexta entrada del diario.</h4>
                 </div>
 
                 <div class="text-body-1 py-4">

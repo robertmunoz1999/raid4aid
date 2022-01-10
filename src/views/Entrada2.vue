@@ -14,7 +14,7 @@
 
               <v-card-text>
                 <div>
-                  <v-btn color="#d2aa6d">El proyecto</v-btn>
+                  <v-btn color="#d2aa6d">Segunda entrada</v-btn>
                 </div>
 
                 <div class="text-h4 font-weight-bold primary--text pt-4">

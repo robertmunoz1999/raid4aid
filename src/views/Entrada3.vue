@@ -14,10 +14,14 @@
 
               <v-card-text>
                 <div>
-                  <v-btn color="#d2aa6d">El proyecto</v-btn>
+                  <v-btn color="#d2aa6d">Tercera entrada</v-btn>
                 </div>
 
                 <div class="text-h4 font-weight-bold primary--text pt-4">
+                  <h4>Limpieza de "El Cohete"</h4>
+                </div>
+
+                <div class="text-h5 font-weight-bold primary--text pt-4">
                   <h4>Tercera entrada del diario.</h4>
                 </div>
 

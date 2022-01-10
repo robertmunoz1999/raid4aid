@@ -14,7 +14,7 @@
 
               <v-card-text>
                 <div>
-                  <v-btn color="#d2aa6d">quinta entrada del diario</v-btn>
+                  <v-btn color="#d2aa6d">quinta entrada</v-btn>
                 </div>
 
                 <div class="text-h4 font-weight-bold primary--text pt-4">
