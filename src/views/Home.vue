@@ -205,7 +205,7 @@
                       class="d-flex flex-column justify-space-between fill-height"
                     >
                       <v-card-text>
-                        <v-btn color="#d2aa6d">Travel</v-btn>
+                        <v-btn color="#d2aa6d">UNIRAID fotos</v-btn>
                       </v-card-text>
 
                       <v-card-text>
@@ -241,7 +241,7 @@
                       class="d-flex flex-column justify-space-between fill-height"
                     >
                       <v-card-text>
-                        <v-btn color="#d2aa6d">Travel</v-btn>
+                        <v-btn color="#d2aa6d">Fotos raid4aid</v-btn>
                       </v-card-text>
 
                       <v-card-text>
@@ -277,7 +277,7 @@
                       class="d-flex flex-column justify-space-between fill-height"
                     >
                       <v-card-text>
-                        <v-btn color="#d2aa6d">Travel</v-btn>
+                        <v-btn color="#d2aa6d">Videos</v-btn>
                       </v-card-text>
 
                       <v-card-text>
