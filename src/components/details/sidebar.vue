@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="pt-4">
-      <h3 class="text-h5 font-weight-medium pb-4">Top Authors</h3>
+      <h3 class="text-h5 font-weight-medium pb-4">Top autores</h3>
 
       <v-divider></v-divider>
 

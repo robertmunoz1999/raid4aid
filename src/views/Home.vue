@@ -193,7 +193,7 @@
 
             <v-row>
               <v-col cols="6" lg="4">
-                <v-card flat dark>
+                <v-card flat dark to="/fotos">
                   <v-img
                     src="../../images/banner1.jpeg"
                     :aspect-ratio="16 / 9"
@@ -213,7 +213,7 @@
                           class="text-h5 py-3 font-weight-bold"
                           style="line-height: 1.2"
                         >
-                          Mira todas las fotos en flickr
+                          Mira todas las fotos de UNIRAID en flickr
                         </div>
 
                         <div class="d-flex align-center">
@@ -228,6 +228,79 @@
                   </v-img>
                 </v-card>
               </v-col>
+              <v-col cols="6" lg="4">
+                <v-card flat dark to="/fotos">
+                  <v-img
+                    src="../../images/fiesta.jpg"
+                    :aspect-ratio="16 / 9"
+                    gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
+                    height="600px"
+                    class="elevation-2 fill-height"
+                  >
+                    <div
+                      class="d-flex flex-column justify-space-between fill-height"
+                    >
+                      <v-card-text>
+                        <v-btn color="#d2aa6d">Travel</v-btn>
+                      </v-card-text>
+
+                      <v-card-text>
+                        <div
+                          class="text-h5 py-3 font-weight-bold"
+                          style="line-height: 1.2"
+                        >
+                          Nuestras fotos de Raid4Aid
+                        </div>
+
+                        <div class="d-flex align-center">
+                          <v-avatar color="#d2aa6d" size="36">
+                            <v-icon dark>mdi-feather</v-icon>
+                          </v-avatar>
+
+                          <div class="pl-2">Roberto Muñoz · 9 Jan 2022</div>
+                        </div>
+                      </v-card-text>
+                    </div>
+                  </v-img>
+                </v-card>
+              </v-col>
+              <v-col cols="6" lg="4">
+                <v-card flat dark to="/fotos">
+                  <v-img
+                    src="../../images/videos.jpeg"
+                    :aspect-ratio="16 / 9"
+                    gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
+                    height="600px"
+                    class="elevation-2 fill-height"
+                  >
+                    <div
+                      class="d-flex flex-column justify-space-between fill-height"
+                    >
+                      <v-card-text>
+                        <v-btn color="#d2aa6d">Travel</v-btn>
+                      </v-card-text>
+
+                      <v-card-text>
+                        <div
+                          class="text-h5 py-3 font-weight-bold"
+                          style="line-height: 1.2"
+                        >
+                          Mira los videos que acabamos de subir
+                        </div>
+
+                        <div class="d-flex align-center">
+                          <v-avatar color="#d2aa6d" size="36">
+                            <v-icon dark>mdi-feather</v-icon>
+                          </v-avatar>
+
+                          <div class="pl-2">Roberto Muñoz · 9 Jan 2022</div>
+                        </div>
+                      </v-card-text>
+                    </div>
+                  </v-img>
+                </v-card>
+              </v-col>
+              
             </v-row>
           </div>
 
