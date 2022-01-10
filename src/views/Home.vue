@@ -51,7 +51,7 @@
                       :color="hover ? 'white' : 'transparent'"
                       :elevation="hover ? 12 : 0"
                       hover
-                      to="/entrada1"
+                      to="Entrada1"
                     >
                       <v-img
                         src="../../images/sponsors.png"

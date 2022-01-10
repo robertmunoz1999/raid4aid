@@ -24,6 +24,23 @@ const routes = [
     path: '/authors',
     name: 'Authors',
     component: () => import("@/views/Authors.vue"),
+  },
+  {
+    path: '/Entrada1',
+    name: 'Entrada1',
+    component: () => import("@/views/Entrada1.vue"),
+  }
+  ,
+  {
+    path: '/Entrada2',
+    name: 'Entrada2',
+    component: () => import("@/views/Entrada2.vue"),
+  }
+  ,
+  {
+    path: '/Entrada3',
+    name: 'Entrada3',
+    component: () => import("@/views/Entrada3.vue"),
   }
 ]
 
