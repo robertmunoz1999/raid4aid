@@ -26,7 +26,7 @@
 
           <div class="pl-2">
             <div class="text-h6">Roberto Muñoz</div>
-            <div class="text-subtitle-1">3 Entradas</div>
+            <div class="text-subtitle-1">6 Entradas</div>
           </div>
           
         </div>

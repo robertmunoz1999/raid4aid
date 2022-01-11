@@ -71,6 +71,18 @@ const routes = [
     name: 'Videos',
     component: () => import("@/views/Videos.vue"),
   }
+  ,
+  {
+    path: '/Fotosraid',
+    name: 'Fotosraid',
+    component: () => import("@/views/Fotosraid.vue"),
+  }
+  ,
+  {
+    path: '/Uniraid',
+    name: 'Uniraid',
+    component: () => import("@/views/Uniraid.vue"),
+  }
 ]
 
 const router = new VueRouter({
