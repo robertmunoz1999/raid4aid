@@ -193,7 +193,7 @@
 
             <v-row>
               <v-col cols="6" lg="4">
-                <v-card flat dark to="/fotos">
+                <v-card flat dark to="/uniraid">
                   <v-img
                     src="../../images/banner1.jpeg"
                     :aspect-ratio="16 / 9"
@@ -205,7 +205,7 @@
                       class="d-flex flex-column justify-space-between fill-height"
                     >
                       <v-card-text>
-                        <v-btn color="#d2aa6d">UNIRAID fotos</v-btn>
+                        <v-btn color="#d2aa6d">UNIRAID</v-btn>
                       </v-card-text>
 
                       <v-card-text>
@@ -213,7 +213,7 @@
                           class="text-h5 py-3 font-weight-bold"
                           style="line-height: 1.2"
                         >
-                          Mira todas las fotos de UNIRAID en flickr
+                         Acerca de UNIRAID
                         </div>
 
                         <div class="d-flex align-center">
